@@ -1,10 +1,6 @@
-# WhatsApp API Laravel Package
+# WhatsApp API Laravel Package 🚀
 
 Easily send WhatsApp messages via the AppSenders API in your Laravel application.
-
-<p align="center">
-    <img src="YOUR_LOGO_OR_A_RELEVANT_IMAGE_URL_HERE" width="300" alt="whatsapp-api logo">
-</p>
 
 ## 🚀 Installation
 
@@ -54,6 +50,20 @@ $response = WhatsApp::sendMessage('RECEIVER_NUMBER', 'Check this PDF!', 'https:/
 ```
 
 
+## ✅ Successful JSON Callback
+
+Here's an example of a successful JSON callback response:
+
+```json
+{
+    "message_status": "Success",
+    "data": {
+        "from": "SENDER_NUMBER",
+        "to": "RECEIVER_NUMBER",
+        "status_code": 200
+    }
+}
+```
 
 ## 📝 Developer
 
