@@ -11,13 +11,13 @@ Easily send WhatsApp messages via the AppSenders API in your Laravel application
 1. **Clone or Download the Package**:
 
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/whatsapp-api.git
+    git clone https://github.com/mohamedhekal/appsenders-laravel-whatsapp-api.git
     ```
 
     OR
 
     ```bash
-    composer require YOUR_PACKAGE_NAME_HERE
+    composer require mohamedhekal/appsenders-laravel-whatsapp-api
     ```
 
 2. **Register the Service Provider**:
